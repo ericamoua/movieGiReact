@@ -1,0 +1,57 @@
+.movie-title {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.movie-release-date, .movie-overview {
+  font-size: 16px;
+  font-family:"Hind Siliguri", sans-serif;;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ebe6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie img {
+  width: 200px;
+  height: auto; 
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.img-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+search-title {
+justify-content: center;
+display: flex;  
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.input-container{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap
+}
+
